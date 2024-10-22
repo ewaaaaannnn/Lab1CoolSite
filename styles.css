@@ -16,3 +16,17 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.blue-button {}
+
+.white-button {}
+
+.yellow-font {
+  color: #FAFD61;
+}
+
+main {
+  color: #F4F6F8;
+  display: flex;
+  justify-content: space-evenly;
+}
