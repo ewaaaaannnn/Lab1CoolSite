@@ -41,15 +41,33 @@ header a {
 }
 
 main {
-  color: #F4F6F8;
+  color: white;
   display: flex;
   justify-content: space-evenly;
   padding: 6em;
+  font-family: sans-serif;
+  flex-wrap: wrap;
 }
 
 nav {
-  background-color: #F4F6F8;
+  background-color: white;
   display: flex;
   justify-content: space-evenly;
   padding: 5em;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+
+
+footer {
+  background-color: #F4F6F8;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.w-50 {
+  width: 50%;
 }
