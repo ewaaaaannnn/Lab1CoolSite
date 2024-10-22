@@ -1,0 +1,18 @@
+:root {
+  --cool-dark: #061130;
+  --cool-blue: #1C4BC4;
+  --cool-light: #F4F6F8;
+  --cool-yellow: #FAFD61;
+}
+
+body {
+  background-color: var(--cool-dark);
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
