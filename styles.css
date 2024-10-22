@@ -38,6 +38,7 @@ header a {
 
 .yellow-font {
   color: #FAFD61;
+  font-weight: bold;
 }
 
 main {
@@ -72,6 +73,10 @@ footer {
   width: 50%;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 900px) {
 
   main {
@@ -79,12 +84,17 @@ footer {
     padding: 4em;
   }
 
+  .w-50 {
+    width: unset;
+  }
+
 }
 
-@media screen and (max-width: 572px) {
+@media screen and (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: column;
     text-align: center;
+    ;
   }
 }
