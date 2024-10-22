@@ -15,11 +15,26 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2em;
 }
 
-.blue-button {}
+header a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 4em;
+}
 
-.white-button {}
+.nav-btn {
+  border: 0;
+  background-color: #1C4BC4;
+  color: white;
+  font-weight: bold;
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 .yellow-font {
   color: #FAFD61;
@@ -29,4 +44,12 @@ main {
   color: #F4F6F8;
   display: flex;
   justify-content: space-evenly;
+  padding: 6em;
+}
+
+nav {
+  background-color: #F4F6F8;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5em;
 }
