@@ -46,7 +46,7 @@ main {
   justify-content: space-evenly;
   padding: 6em;
   font-family: sans-serif;
-  flex-wrap: wrap;
+
 }
 
 nav {
@@ -70,4 +70,13 @@ footer {
 
 .w-50 {
   width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+
+  main {
+    flex-wrap: wrap;
+    padding: 4em;
+  }
+
 }
